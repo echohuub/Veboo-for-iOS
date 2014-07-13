@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51C51F5D1972548F00B0D24D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C51F5C1972548F00B0D24D /* Foundation.framework */; };
+		51C51F5F1972548F00B0D24D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C51F5E1972548F00B0D24D /* CoreGraphics.framework */; };
+		51C51F611972548F00B0D24D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C51F601972548F00B0D24D /* UIKit.framework */; };
+		51C51F671972548F00B0D24D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51C51F651972548F00B0D24D /* InfoPlist.strings */; };
+		51C51F691972548F00B0D24D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C51F681972548F00B0D24D /* main.m */; };
+		51C51F6D1972548F00B0D24D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C51F6C1972548F00B0D24D /* AppDelegate.m */; };
+		51C51F6F1972548F00B0D24D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C51F6E1972548F00B0D24D /* Images.xcassets */; };
+		51C51F761972548F00B0D24D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C51F751972548F00B0D24D /* XCTest.framework */; };
+		51C51F771972548F00B0D24D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C51F5C1972548F00B0D24D /* Foundation.framework */; };
+		51C51F781972548F00B0D24D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C51F601972548F00B0D24D /* UIKit.framework */; };
+		51C51F801972548F00B0D24D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51C51F7E1972548F00B0D24D /* InfoPlist.strings */; };
+		51C51F821972548F00B0D24D /* VebooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C51F811972548F00B0D24D /* VebooTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51C51F791972548F00B0D24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51C51F511972548F00B0D24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51C51F581972548F00B0D24D;
+			remoteInfo = Veboo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51C51F591972548F00B0D24D /* Veboo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veboo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C51F5C1972548F00B0D24D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51C51F5E1972548F00B0D24D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51C51F601972548F00B0D24D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51C51F641972548F00B0D24D /* Veboo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Veboo-Info.plist"; sourceTree = "<group>"; };
+		51C51F661972548F00B0D24D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51C51F681972548F00B0D24D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51C51F6A1972548F00B0D24D /* Veboo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Veboo-Prefix.pch"; sourceTree = "<group>"; };
+		51C51F6B1972548F00B0D24D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51C51F6C1972548F00B0D24D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51C51F6E1972548F00B0D24D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51C51F741972548F00B0D24D /* VebooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VebooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C51F751972548F00B0D24D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		51C51F7D1972548F00B0D24D /* VebooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VebooTests-Info.plist"; sourceTree = "<group>"; };
+		51C51F7F1972548F00B0D24D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51C51F811972548F00B0D24D /* VebooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VebooTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51C51F561972548F00B0D24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C51F5F1972548F00B0D24D /* CoreGraphics.framework in Frameworks */,
+				51C51F611972548F00B0D24D /* UIKit.framework in Frameworks */,
+				51C51F5D1972548F00B0D24D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C51F711972548F00B0D24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C51F761972548F00B0D24D /* XCTest.framework in Frameworks */,
+				51C51F781972548F00B0D24D /* UIKit.framework in Frameworks */,
+				51C51F771972548F00B0D24D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51C51F501972548F00B0D24D = {
+			isa = PBXGroup;
+			children = (
+				51C51F621972548F00B0D24D /* Veboo */,
+				51C51F7B1972548F00B0D24D /* VebooTests */,
+				51C51F5B1972548F00B0D24D /* Frameworks */,
+				51C51F5A1972548F00B0D24D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51C51F5A1972548F00B0D24D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51C51F591972548F00B0D24D /* Veboo.app */,
+				51C51F741972548F00B0D24D /* VebooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51C51F5B1972548F00B0D24D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51C51F5C1972548F00B0D24D /* Foundation.framework */,
+				51C51F5E1972548F00B0D24D /* CoreGraphics.framework */,
+				51C51F601972548F00B0D24D /* UIKit.framework */,
+				51C51F751972548F00B0D24D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51C51F621972548F00B0D24D /* Veboo */ = {
+			isa = PBXGroup;
+			children = (
+				51C51F6B1972548F00B0D24D /* AppDelegate.h */,
+				51C51F6C1972548F00B0D24D /* AppDelegate.m */,
+				51C51F6E1972548F00B0D24D /* Images.xcassets */,
+				51C51F631972548F00B0D24D /* Supporting Files */,
+			);
+			path = Veboo;
+			sourceTree = "<group>";
+		};
+		51C51F631972548F00B0D24D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51C51F641972548F00B0D24D /* Veboo-Info.plist */,
+				51C51F651972548F00B0D24D /* InfoPlist.strings */,
+				51C51F681972548F00B0D24D /* main.m */,
+				51C51F6A1972548F00B0D24D /* Veboo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51C51F7B1972548F00B0D24D /* VebooTests */ = {
+			isa = PBXGroup;
+			children = (
+				51C51F811972548F00B0D24D /* VebooTests.m */,
+				51C51F7C1972548F00B0D24D /* Supporting Files */,
+			);
+			path = VebooTests;
+			sourceTree = "<group>";
+		};
+		51C51F7C1972548F00B0D24D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51C51F7D1972548F00B0D24D /* VebooTests-Info.plist */,
+				51C51F7E1972548F00B0D24D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51C51F581972548F00B0D24D /* Veboo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C51F851972548F00B0D24D /* Build configuration list for PBXNativeTarget "Veboo" */;
+			buildPhases = (
+				51C51F551972548F00B0D24D /* Sources */,
+				51C51F561972548F00B0D24D /* Frameworks */,
+				51C51F571972548F00B0D24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veboo;
+			productName = Veboo;
+			productReference = 51C51F591972548F00B0D24D /* Veboo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51C51F731972548F00B0D24D /* VebooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C51F881972548F00B0D24D /* Build configuration list for PBXNativeTarget "VebooTests" */;
+			buildPhases = (
+				51C51F701972548F00B0D24D /* Sources */,
+				51C51F711972548F00B0D24D /* Frameworks */,
+				51C51F721972548F00B0D24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51C51F7A1972548F00B0D24D /* PBXTargetDependency */,
+			);
+			name = VebooTests;
+			productName = VebooTests;
+			productReference = 51C51F741972548F00B0D24D /* VebooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51C51F511972548F00B0D24D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = HeQingbao;
+				TargetAttributes = {
+					51C51F731972548F00B0D24D = {
+						TestTargetID = 51C51F581972548F00B0D24D;
+					};
+				};
+			};
+			buildConfigurationList = 51C51F541972548F00B0D24D /* Build configuration list for PBXProject "Veboo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51C51F501972548F00B0D24D;
+			productRefGroup = 51C51F5A1972548F00B0D24D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51C51F581972548F00B0D24D /* Veboo */,
+				51C51F731972548F00B0D24D /* VebooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51C51F571972548F00B0D24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C51F671972548F00B0D24D /* InfoPlist.strings in Resources */,
+				51C51F6F1972548F00B0D24D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C51F721972548F00B0D24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C51F801972548F00B0D24D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51C51F551972548F00B0D24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C51F6D1972548F00B0D24D /* AppDelegate.m in Sources */,
+				51C51F691972548F00B0D24D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C51F701972548F00B0D24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C51F821972548F00B0D24D /* VebooTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51C51F7A1972548F00B0D24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51C51F581972548F00B0D24D /* Veboo */;
+			targetProxy = 51C51F791972548F00B0D24D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51C51F651972548F00B0D24D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51C51F661972548F00B0D24D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51C51F7E1972548F00B0D24D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51C51F7F1972548F00B0D24D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51C51F831972548F00B0D24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51C51F841972548F00B0D24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51C51F861972548F00B0D24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Veboo/Veboo-Prefix.pch";
+				INFOPLIST_FILE = "Veboo/Veboo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51C51F871972548F00B0D24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Veboo/Veboo-Prefix.pch";
+				INFOPLIST_FILE = "Veboo/Veboo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		51C51F891972548F00B0D24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Veboo.app/Veboo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Veboo/Veboo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VebooTests/VebooTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		51C51F8A1972548F00B0D24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Veboo.app/Veboo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Veboo/Veboo-Prefix.pch";
+				INFOPLIST_FILE = "VebooTests/VebooTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51C51F541972548F00B0D24D /* Build configuration list for PBXProject "Veboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C51F831972548F00B0D24D /* Debug */,
+				51C51F841972548F00B0D24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C51F851972548F00B0D24D /* Build configuration list for PBXNativeTarget "Veboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C51F861972548F00B0D24D /* Debug */,
+				51C51F871972548F00B0D24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51C51F881972548F00B0D24D /* Build configuration list for PBXNativeTarget "VebooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C51F891972548F00B0D24D /* Debug */,
+				51C51F8A1972548F00B0D24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51C51F511972548F00B0D24D /* Project object */;
+}
