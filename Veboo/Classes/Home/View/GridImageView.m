@@ -7,7 +7,7 @@
 //
 
 #import "GridImageView.h"
-#import <UIImageView+WebCache.h>
+#import "ImageItemView.h"
 
 #define kImageCount 9
 
@@ -25,7 +25,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         for (int i = 0; i < kImageCount; i++) {
-            UIImageView *imageView = [[UIImageView alloc] init];
+            ImageItemView *imageView = [[ImageItemView alloc] init];
             [self addSubview:imageView];
         }
     }
@@ -38,14 +38,14 @@
     
     int count = imageUrls.count;
     for (int i = 0; i < kImageCount; i++) {
-        UIImageView *childView = self.subviews[i];
+        ImageItemView *childView = self.subviews[i];
         if (i >= count) {
             childView.hidden = YES;
             continue;
         }
         
         childView.hidden = NO;
-        [childView setImageWithURL:[NSURL URLWithString:imageUrls[i]] placeholderImage:[UIImage imageNamed:@"Icon.png"]];
+        childView.imageUrl = imageUrls[i];
         
         if (count == 1) { // 只有一张图片
             childView.contentMode = UIViewContentModeScaleAspectFit;
